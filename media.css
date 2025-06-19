@@ -1,0 +1,85 @@
+@media screen and (max-width:920px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .nagivation {
+        width: 100%;
+    }
+
+    .profilepic {
+        border-radius: 50%;
+        width: 17px;
+    }
+
+    .hamburger-menu {
+        width: 15px;
+    }
+
+    .youtube-logo {
+        width: 50px;
+        height: 25px;
+    }
+
+    .search-button,
+    .voice-search {
+        width: 15px;
+        height: 12px;
+    }
+
+    .upload,
+    .notification {
+        height: 15px;
+    }
+
+    #search {
+        width: 100px;
+        height: 15px;
+    }
+
+    .leftbar {
+        justify-content: space-around;
+    }
+
+    .rightbar {
+        justify-content: space-evenly;
+    }
+
+    nav {
+        margin: 0 8px;
+    }
+
+    .layout {
+        width: 100%;
+        grid-template-columns: 6% 94%;
+        grid-template-rows: 50px 100%;
+    }
+
+    .tags {
+        position: sticky;
+        top: 0;
+        flex-wrap: wrap;
+        grid-column: 1/3;
+        flex-direction: column;
+    }
+
+    .firstsection {
+        display: none;
+    }
+
+    .secondsection {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .box {
+        width: 35%;
+        height: 35%;
+    }
+
+    .channel-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+}
